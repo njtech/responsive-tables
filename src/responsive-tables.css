@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+	.responsive tr {
+	  display: block;
+	  padding: 10px 0;
+	  border-top: 1px solid rgba(51,51,51,.12) !important;
+	}
+
+	.responsive td {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  text-align: left;
+	  border: none !important;
+	  padding-left: 0 !important;
+	  padding-right: 0 !important;
+	}
+
+	.responsive tr > td:before {
+	  font-weight: bold;
+	  padding-right: 15px
+	}
+
+	.responsive tr > td:first-child {
+	  font-size: 1.2em;
+	}
+
+	.responsive thead {
+	  display: none;
+	}
+}
